@@ -1,0 +1,72 @@
+# Este archivo .gitignore debe ubicarse en la raíz del directorio de su proyecto Unity
+#
+# Obtenga la última versión en https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[L]ibraria/
+/[Tt]empo/
+/[Oo]bj/
+/[Bb]construcción/
+/[Bb]edificios/
+/[L]ogs/
+/[Uu]ser[Ss]configuraciones/
+
+# Las capturas de memoria pueden alcanzar un tamaño excesivo.
+# También podrían contener datos extremadamente sensibles.
+/[Mm]emoryCapturas/
+
+# Las grabaciones pueden alcanzar un tamaño excesivo
+/[Rr]grabaciones/
+
+# Descomente esta línea si desea ignorar el complemento de herramientas del almacén de activos
+# /[Aa]ssets/Herramientas de almacenamiento de activos*
+
+# Complemento Jetbrains Rider autogenerado
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Directorio de caché de Visual Studio
+.vs/
+
+# Directorio de caché de Gradle
+.gradle/
+
+# Archivos de proyecto y solución VS/MD/Consulo generados automáticamente
+ExportObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.usuario
+*.preferencias del usuario
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.base de datos
+
+#Archivos meta generados por Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Archivo generado por Unity3D en informes de fallos
+archivo sysinfo.txt
+
+# Construcciones
+*.apk
+*.aab
+*.paquete unity
+*.aplicación
+
+# Archivo generado por Crashlytics
+Propiedades de construcción de crashlytics
+
+# Direccionables empaquetados
+/[Aa]ssets/[Aa]direccionable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Recursos temporales de Android generados automáticamente
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]activos/[Ss]activos de transmisión/aa/*
