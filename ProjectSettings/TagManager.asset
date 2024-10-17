@@ -42,8 +42,18 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: background
+<<<<<<< Updated upstream
     uniqueID: 4050015303
     locked: 0
   - name: foreground
     uniqueID: 2630964687
+=======
+    uniqueID: 1484719911
+    locked: 0
+  - name: midground
+    uniqueID: 2529391187
+    locked: 0
+  - name: foreground
+    uniqueID: 1397999969
+>>>>>>> Stashed changes
     locked: 0
