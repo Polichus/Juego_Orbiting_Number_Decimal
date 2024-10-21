@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3391691}
   - component: {fileID: 3391690}
   m_Layer: 5
-  m_Name: Button (10)
+  m_Name: bola verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 119002194}
   - component: {fileID: 119002193}
   m_Layer: 5
-  m_Name: Button
+  m_Name: bola roja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 190726765}
   - component: {fileID: 190726764}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: bola verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 449231899}
   - component: {fileID: 449231898}
   m_Layer: 5
-  m_Name: Button (12)
+  m_Name: bola roja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 517977061}
   - component: {fileID: 517977060}
   m_Layer: 5
-  m_Name: Button
+  m_Name: bola naranja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 542115671}
   - component: {fileID: 542115670}
   m_Layer: 5
-  m_Name: Button
+  m_Name: bola naranja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 918105182}
   - component: {fileID: 918105181}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: bola roja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1155,7 +1155,7 @@ GameObject:
   - component: {fileID: 930368538}
   - component: {fileID: 930368537}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: bola roja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1411,7 +1411,7 @@ GameObject:
   - component: {fileID: 1077620038}
   - component: {fileID: 1077620037}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: bola naranja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1531,7 +1531,7 @@ GameObject:
   - component: {fileID: 1185439308}
   - component: {fileID: 1185439307}
   m_Layer: 5
-  m_Name: Button (11)
+  m_Name: bola verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1795,7 +1795,7 @@ GameObject:
   - component: {fileID: 1222193828}
   - component: {fileID: 1222193827}
   m_Layer: 5
-  m_Name: Button (8)
+  m_Name: bola naranja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2067,7 +2067,7 @@ GameObject:
   - component: {fileID: 1283946472}
   - component: {fileID: 1283946471}
   m_Layer: 5
-  m_Name: Button (7)
+  m_Name: bola naranja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2187,7 +2187,7 @@ GameObject:
   - component: {fileID: 1378667328}
   - component: {fileID: 1378667327}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: bola verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2307,7 +2307,7 @@ GameObject:
   - component: {fileID: 1402303875}
   - component: {fileID: 1402303874}
   m_Layer: 5
-  m_Name: Button
+  m_Name: boton salir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2659,7 +2659,7 @@ GameObject:
   - component: {fileID: 1733325874}
   - component: {fileID: 1733325873}
   m_Layer: 5
-  m_Name: Button (9)
+  m_Name: bola verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2779,7 +2779,7 @@ GameObject:
   - component: {fileID: 1799729954}
   - component: {fileID: 1799729953}
   m_Layer: 5
-  m_Name: Button (14)
+  m_Name: bola dorada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2899,7 +2899,7 @@ GameObject:
   - component: {fileID: 1916975316}
   - component: {fileID: 1916975315}
   m_Layer: 5
-  m_Name: Button (13)
+  m_Name: bola roja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3019,7 +3019,7 @@ GameObject:
   - component: {fileID: 1962570589}
   - component: {fileID: 1962570588}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bola narnja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
