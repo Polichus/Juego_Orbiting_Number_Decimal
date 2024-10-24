@@ -10,6 +10,7 @@ public class Resultado : MonoBehaviour
     {
         SceneManager.LoadScene("PantallaInicial");
     }
+    
     // Start is called before the first frame update
     void Start()
     {

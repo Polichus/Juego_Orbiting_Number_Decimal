@@ -11,6 +11,12 @@ public class ranking : MonoBehaviour
     {
         SceneManager.LoadScene("ranking");
     }
+
+    public void AnarEscenaResultados()
+    {
+        SceneManager.LoadScene("Resultado");
+    }
+ 
     // Start is called before the first frame update
     void Start()
     {
