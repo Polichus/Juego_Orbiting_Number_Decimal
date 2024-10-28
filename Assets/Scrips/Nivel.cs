@@ -2,23 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro; // Necesario para TextMeshProUGUI
 
 public class Nivel : MonoBehaviour
 {
+    // Variable para contar los segundos
+    private float seconds = 0;
 
+    // Referencia a un TextMeshProUGUI para mostrar el tiempo en pantalla
+    public TextMeshProUGUI timeText;
+
+    void Start()
+    {
+        // Verifica que el campo timeText esté asignado
+        if (timeText == null)
+        {
+            Debug.LogError("No se asignó un Text para mostrar el tiempo.");
+        }
+    }
+
+    void Update()
+    {
+        // Incrementa los segundos usando deltaTime
+        seconds += Time.deltaTime;
+
+        // Actualiza el texto en pantalla con el tiempo
+        if (timeText != null)
+        {
+            timeText.text =   seconds.ToString("F2") ;
+        }
+    }
+
+    // Método para cambiar de escena
     public void AnarEscenaSalir()
     {
         SceneManager.LoadScene("Resultado");
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
