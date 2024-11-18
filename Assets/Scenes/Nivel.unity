@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 3391692}
   - component: {fileID: 3391691}
   - component: {fileID: 3391690}
-  - component: {fileID: 3391693}
   m_Layer: 5
   m_Name: bola verde
   m_TagString: Untagged
@@ -378,19 +377,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3391688}
   m_CullTransparentMesh: 1
---- !u!114 &3391693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3391688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &119002191
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +389,6 @@ GameObject:
   - component: {fileID: 119002195}
   - component: {fileID: 119002194}
   - component: {fileID: 119002193}
-  - component: {fileID: 119002196}
   m_Layer: 5
   m_Name: bola roja
   m_TagString: Untagged
@@ -513,19 +498,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119002191}
   m_CullTransparentMesh: 1
---- !u!114 &119002196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119002191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &190726762
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +510,6 @@ GameObject:
   - component: {fileID: 190726766}
   - component: {fileID: 190726765}
   - component: {fileID: 190726764}
-  - component: {fileID: 190726767}
   m_Layer: 5
   m_Name: bola verde
   m_TagString: Untagged
@@ -660,19 +631,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190726762}
   m_CullTransparentMesh: 1
---- !u!114 &190726767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190726762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &263468229
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +861,6 @@ GameObject:
   - component: {fileID: 449231900}
   - component: {fileID: 449231899}
   - component: {fileID: 449231898}
-  - component: {fileID: 449231901}
   m_Layer: 5
   m_Name: bola roja
   m_TagString: Untagged
@@ -1013,19 +970,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449231896}
   m_CullTransparentMesh: 1
---- !u!114 &449231901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449231896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &517977058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +982,6 @@ GameObject:
   - component: {fileID: 517977062}
   - component: {fileID: 517977061}
   - component: {fileID: 517977060}
-  - component: {fileID: 517977063}
   m_Layer: 5
   m_Name: bola naranja
   m_TagString: Untagged
@@ -1130,7 +1073,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce894e869736bff4ab88854b0f02f8ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c937d593950d4694d97f9fd59c8c059a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1148,19 +1091,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517977058}
   m_CullTransparentMesh: 1
---- !u!114 &517977063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517977058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &542115668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,7 +1103,6 @@ GameObject:
   - component: {fileID: 542115672}
   - component: {fileID: 542115671}
   - component: {fileID: 542115670}
-  - component: {fileID: 542115673}
   m_Layer: 5
   m_Name: bola naranja
   m_TagString: Untagged
@@ -1265,7 +1194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce894e869736bff4ab88854b0f02f8ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c937d593950d4694d97f9fd59c8c059a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1283,19 +1212,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542115668}
   m_CullTransparentMesh: 1
---- !u!114 &542115673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542115668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &576259038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +1844,6 @@ GameObject:
   - component: {fileID: 918105183}
   - component: {fileID: 918105182}
   - component: {fileID: 918105181}
-  - component: {fileID: 918105184}
   m_Layer: 5
   m_Name: bola roja
   m_TagString: Untagged
@@ -2038,19 +1953,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918105179}
   m_CullTransparentMesh: 1
---- !u!114 &918105184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918105179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &930368535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,7 +1965,6 @@ GameObject:
   - component: {fileID: 930368539}
   - component: {fileID: 930368538}
   - component: {fileID: 930368537}
-  - component: {fileID: 930368540}
   m_Layer: 5
   m_Name: bola roja
   m_TagString: Untagged
@@ -2173,19 +2074,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930368535}
   m_CullTransparentMesh: 1
---- !u!114 &930368540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930368535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &991026128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2468,7 +2356,6 @@ GameObject:
   - component: {fileID: 1077620039}
   - component: {fileID: 1077620038}
   - component: {fileID: 1077620037}
-  - component: {fileID: 1077620040}
   m_Layer: 5
   m_Name: bola naranja
   m_TagString: Untagged
@@ -2560,7 +2447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce894e869736bff4ab88854b0f02f8ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c937d593950d4694d97f9fd59c8c059a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2578,19 +2465,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077620035}
   m_CullTransparentMesh: 1
---- !u!114 &1077620040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077620035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1098892315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,7 +2745,6 @@ GameObject:
   - component: {fileID: 1185439309}
   - component: {fileID: 1185439308}
   - component: {fileID: 1185439307}
-  - component: {fileID: 1185439310}
   m_Layer: 5
   m_Name: bola verde
   m_TagString: Untagged
@@ -2981,19 +2854,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185439305}
   m_CullTransparentMesh: 1
---- !u!114 &1185439310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185439305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1199142271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,7 +3011,6 @@ GameObject:
   - component: {fileID: 1222193829}
   - component: {fileID: 1222193828}
   - component: {fileID: 1222193827}
-  - component: {fileID: 1222193830}
   m_Layer: 5
   m_Name: bola naranja
   m_TagString: Untagged
@@ -3243,7 +3102,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce894e869736bff4ab88854b0f02f8ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c937d593950d4694d97f9fd59c8c059a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3261,19 +3120,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222193825}
   m_CullTransparentMesh: 1
---- !u!114 &1222193830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222193825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1226273872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,7 +3418,6 @@ GameObject:
   - component: {fileID: 1283946473}
   - component: {fileID: 1283946472}
   - component: {fileID: 1283946471}
-  - component: {fileID: 1283946474}
   m_Layer: 5
   m_Name: bola naranja
   m_TagString: Untagged
@@ -3664,7 +3509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce894e869736bff4ab88854b0f02f8ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c937d593950d4694d97f9fd59c8c059a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3682,19 +3527,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283946469}
   m_CullTransparentMesh: 1
---- !u!114 &1283946474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1283946469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1378667325
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,7 +3539,6 @@ GameObject:
   - component: {fileID: 1378667329}
   - component: {fileID: 1378667328}
   - component: {fileID: 1378667327}
-  - component: {fileID: 1378667330}
   m_Layer: 5
   m_Name: bola verde
   m_TagString: Untagged
@@ -3817,19 +3648,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378667325}
   m_CullTransparentMesh: 1
---- !u!114 &1378667330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378667325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1402303872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4730,7 +4548,6 @@ GameObject:
   - component: {fileID: 1733325875}
   - component: {fileID: 1733325874}
   - component: {fileID: 1733325873}
-  - component: {fileID: 1733325876}
   m_Layer: 5
   m_Name: bola verde
   m_TagString: Untagged
@@ -4840,19 +4657,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733325871}
   m_CullTransparentMesh: 1
---- !u!114 &1733325876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733325871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1799729951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,7 +4803,6 @@ GameObject:
   - component: {fileID: 1916975317}
   - component: {fileID: 1916975316}
   - component: {fileID: 1916975315}
-  - component: {fileID: 1916975318}
   m_Layer: 5
   m_Name: bola roja
   m_TagString: Untagged
@@ -5109,19 +4912,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916975313}
   m_CullTransparentMesh: 1
---- !u!114 &1916975318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916975313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1942197941
 GameObject:
   m_ObjectHideFlags: 0
@@ -5402,7 +5192,6 @@ GameObject:
   - component: {fileID: 1962570590}
   - component: {fileID: 1962570589}
   - component: {fileID: 1962570588}
-  - component: {fileID: 1962570591}
   m_Layer: 5
   m_Name: bola narnja
   m_TagString: Untagged
@@ -5494,7 +5283,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce894e869736bff4ab88854b0f02f8ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c937d593950d4694d97f9fd59c8c059a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5512,19 +5301,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962570586}
   m_CullTransparentMesh: 1
---- !u!114 &1962570591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962570586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7142418e958f9c94bb5d5775898dcd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroAleatorio: 0
 --- !u!1 &1998079568
 GameObject:
   m_ObjectHideFlags: 0
