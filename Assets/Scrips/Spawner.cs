@@ -12,14 +12,29 @@ public class Spawner : MonoBehaviour
     private Vector2 posMax;
     private List<GameObject> listaBolas;
 
+    // Separación mínima entre bolas, bordes y la bola central
+    public float separacionEntreBolas = 1.5f; // Espacio entre bolas
+    public float separacionBordes = 0.5f;    // Espacio entre bordes y bolas
+    public float separacionBolaCentral = 2.5f; // Espacio alrededor de la bola central
+
+    // Posición de la bola central
+    public Vector2 posicionBolaCentral;
+
     private void Start()
     {
         // Inicializar la lista antes de usarla
         listaBolas = new List<GameObject>();
 
-        // Obtener límites de la pantalla en el eje X e Y
-        posMin = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));        // Esquina inferior izquierda
-        posMax = Camera.main.ViewportToWorldPoint(new Vector2(0.80f, 0.80f)); // Límites visibles (80% del viewport)
+        // Obtener límites de la pantalla en el eje X e Y, ajustando por la separación con los bordes
+        posMin = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));
+        posMax = Camera.main.ViewportToWorldPoint(new Vector2(0.80f, 0.80f));
+
+        // Ajustar límites para dejar espacio entre las bolas y los bordes
+        posMin += new Vector2(separacionBordes, separacionBordes);
+        posMax -= new Vector2(separacionBordes, separacionBordes);
+
+        // Definir la posición de la bola central (puedes ajustar esto según tu escena)
+        posicionBolaCentral = new Vector2(0, 0); // Cambiar si la bola central está en otro lugar
 
         // Empezar a generar objetos repetidamente
         GenerarNumeros();
@@ -29,48 +44,50 @@ public class Spawner : MonoBehaviour
     {
         for (int i = 0; i < 16; i++) // Generar 16 bolas
         {
-            // Generar una posición aleatoria dentro de los límites de la pantalla
-            float posX = Random.Range(posMin.x, posMax.x);
-            float posY = Random.Range(posMin.y, posMax.y);
-            Vector2 posicionSpawn = new Vector2(posX, posY);
+            Vector2 posicionSpawn;
+            bool posicionValida;
 
-            // Instanciar el prefab en la posición aleatoria
+            // Generar una posición aleatoria dentro de los límites hasta encontrar una válida
+            do
+            {
+                float posX = Random.Range(posMin.x, posMax.x);
+                float posY = Random.Range(posMin.y, posMax.y);
+                posicionSpawn = new Vector2(posX, posY);
+
+                posicionValida = VerificarSeparacion(posicionSpawn);
+            } while (!posicionValida);
+
+            // Instanciar el prefab en la posición válida
             GameObject numero = Instantiate(prefabNumero);
             numero.transform.position = posicionSpawn;
 
             // Agregar el objeto instanciado a la lista
             listaBolas.Add(numero);
-
-            // Mover la bola si está encima de otras
-            MoverBolaSiEstaEncimaDeOtras(numero);
         }
     }
 
-    private void MoverBolaSiEstaEncimaDeOtras(GameObject bolaActual)
+    private bool VerificarSeparacion(Vector2 posicion)
     {
-        for (int i = 0; i < listaBolas.Count; i++)
+        // Verificar si la posición está suficientemente separada de la bola central
+        float distanciaCentral = Vector2.Distance(posicion, posicionBolaCentral);
+        if (distanciaCentral < separacionBolaCentral)
         {
-            GameObject otraBola = listaBolas[i];
+            return false; // Posición no válida si está demasiado cerca de la bola central
+        }
 
-            // Evitar comparar la bola consigo misma
-            if (bolaActual == otraBola) continue;
-
-            Vector2 distancia = bolaActual.transform.position - otraBola.transform.position;
-            float modulDistancia = distancia.magnitude;
-
-            // Si las bolas están demasiado cerca, mover la actual
-            if (modulDistancia < 1.5f)
+        // Verificar si la posición está suficientemente separada de otras bolas
+        foreach (GameObject bola in listaBolas)
+        {
+            float distancia = Vector2.Distance(posicion, bola.transform.position);
+            if (distancia < separacionEntreBolas)
             {
-                // Asegurarse de que la nueva posición esté dentro de los límites
-                float nuevoX = Mathf.Clamp(bolaActual.transform.position.x + 1.5f, posMin.x, posMax.x);
-                float nuevoY = Mathf.Clamp(bolaActual.transform.position.y, posMin.y, posMax.y);
-
-                bolaActual.transform.position = new Vector2(nuevoX, nuevoY);
-
-                // Volver a comprobar por si sigue estando demasiado cerca de otra bola
-                i = -1; // Reinicia el bucle para verificar todas las bolas nuevamente
+                return false; // Posición no válida si está demasiado cerca de otra bola
             }
         }
+
+        return true; // Posición válida
     }
 }
+
+
 
