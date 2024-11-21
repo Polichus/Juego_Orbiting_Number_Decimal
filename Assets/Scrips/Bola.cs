@@ -12,11 +12,11 @@ public class Bola : MonoBehaviour
     void Start()
     {
         // Verificar que spritesNumerosPossibles tiene al menos un sprite
-        /*if (spritesNumerosPossibles == null || spritesNumerosPossibles.Length == 0)
+        if (spritesNumerosPossibles == null || spritesNumerosPossibles.Length == 0)
         {
             Debug.LogError("El array 'spritesNumerosPossibles' está vacío. Asigna sprites en el Inspector.");
             return;
-        }*/
+        }
 
         // Generar un índice aleatorio dentro del rango de sprites disponibles
         System.Random aleatorio = new System.Random();
@@ -24,13 +24,13 @@ public class Bola : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = spritesNumerosPossibles[colorBola];
 
         // Intentar obtener el componente TextMeshProUGUI en los hijos
-        /*textoBola = GetComponentInChildren<TextMeshProUGUI>();
+         /*textoBola = GetComponentInChildren<TextMeshProUGUI>();
         if (textoBola == null)
         {
             Debug.LogError("No se encontró el componente TextMeshProUGUI en los hijos del objeto. Asegúrate de que el objeto tenga un hijo con TextMeshProUGUI.");
             return;  // Termina la ejecución si falta el componente
         }*/
-        
+
 
         // Generar un número aleatorio único y mostrarlo en el TextMeshProUGUI
         float numeroAleatorio = GenerarNumeroAleatorio();
@@ -53,4 +53,3 @@ public class Bola : MonoBehaviour
         return Mathf.Round(Random.Range(0f, 99f) * 100f) / 100f;
     }
 }
-

@@ -55,13 +55,10 @@ public class BolaCentral : MonoBehaviour
         numero1 = Mathf.Round(numero1 * 100f) / 100f;
         numero2 = Mathf.Round(numero2 * 100f) / 100f;
 
-      
+
 
         // Mostrar solo los dos números sumados, sin el igual ni el resultado
         textoBolaCentral.text = $"{numero1.ToString("F2")} + {numero2.ToString("F2")}";
-        
+
     }
 }
-
-
-
