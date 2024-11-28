@@ -19,7 +19,7 @@ public class Spawner : MonoBehaviour
 
     // Posición de la bola central
     public Vector2 posicionBolaCentral;
-
+    private Canvas canvas;
     private void Start()
     {
         // Inicializar la lista antes de usarla

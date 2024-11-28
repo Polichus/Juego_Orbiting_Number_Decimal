@@ -8,6 +8,9 @@ public class BolaCentral : MonoBehaviour
 {
     private TextMeshProUGUI textoBolaCentral;
 
+    //private List<string> problemas = new List<float>();
+    private List<float> solucion = new List<float>();
+
     void Start()
     {
         textoBolaCentral = GetComponentInChildren<TextMeshProUGUI>();
@@ -60,5 +63,21 @@ public class BolaCentral : MonoBehaviour
         // Mostrar solo los dos números sumados, sin el igual ni el resultado
         textoBolaCentral.text = $"{numero1.ToString("F2")} + {numero2.ToString("F2")}";
 
+    }
+
+    private void GenerarProblema()
+    {
+        float numA = Random.RandomRange(0f,99f);
+        float numB = Random.RandomRange(0f, 99f);
+        string textoProblema = numA.ToString() +" + " + numB.ToString();
+        //problemas.Add(textoProblema);
+        GenerarSolución(numA, numB);
+        
+    }
+
+    private void GenerarSolución(float numA, float numB)
+    {
+        float solution = numA + numB;
+        solucion.Add(solution);
     }
 }

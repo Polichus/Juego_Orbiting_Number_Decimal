@@ -48,7 +48,7 @@ public class Bola : MonoBehaviour
         return numerosGenerados;
     }
 
-    private float GenerarNumeroAleatorio()
+    public float GenerarNumeroAleatorio()
     {
         return Mathf.Round(Random.Range(0f, 99f) * 100f) / 100f;
     }
