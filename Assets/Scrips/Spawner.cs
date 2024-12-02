@@ -88,4 +88,3 @@ public class Spawner : MonoBehaviour
         return true; // Posición válida
     }
 }
-

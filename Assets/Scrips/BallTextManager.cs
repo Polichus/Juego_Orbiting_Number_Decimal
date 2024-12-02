@@ -8,7 +8,7 @@ public class BallTextManager : MonoBehaviour
     void Start()
     {
         // Verifica si el componente de texto está asignado
-        if (textMesh == null || textMesh.text ==" ")
+        if (textMesh == null || textMesh.text == " ")
         {
             Debug.LogError("El componente de texto no está asignado en el prefab.");
             return;

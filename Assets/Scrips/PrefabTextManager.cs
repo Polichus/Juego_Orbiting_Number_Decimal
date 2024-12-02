@@ -33,7 +33,7 @@ public class PrefabTextManager : MonoBehaviour
 
         // Crear una instancia del texto en el Canvas
         textInstance = Instantiate(prefabText, canvasTransform);
-        textInstance.text = bola.GenerarNumeroAleatorio().ToString(); // Texto inicial
+        //textInstance.text = bola.GenerarNumeroAleatorio().ToString(); // Texto inicial
         textInstance.fontSize = 30;            // Tamaño del texto
         textInstance.color = Color.black;        // Color del texto
 

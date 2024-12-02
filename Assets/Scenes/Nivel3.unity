@@ -407,6 +407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3376cb59da1bb546b6dc0c3cc1476c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvasPuntos: {fileID: 1991967012}
+  canvasBolasGeneradas: {fileID: 1137389324}
 --- !u!1 &424035301
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a552eab97df74ba4d9cd8f6f55f8c15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabNumero: {fileID: 4567143350457166867, guid: 0b782d00e0f9ba94badb8423decfc52e, type: 3}
+  prefabNumero: {fileID: 5489758606303309875, guid: 0b782d00e0f9ba94badb8423decfc52e, type: 3}
   separacionEntreBolas: 1.9
   separacionBordes: 0.8
   separacionBolaCentral: 2.5
@@ -2540,6 +2542,7 @@ GameObject:
   - component: {fileID: 2084183877}
   - component: {fileID: 2084183876}
   - component: {fileID: 2084183875}
+  - component: {fileID: 2084183878}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2621,6 +2624,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084183878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084183874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &2107450650
 GameObject:
   m_ObjectHideFlags: 0
