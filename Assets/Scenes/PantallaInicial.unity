@@ -701,8 +701,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Es un juego de matem\xE1ticas dise\xF1ado para practicar sumas, restas,
-    multiplicaciones y divisiones con decimales"
+  m_text: "\xC9s un joc de matem\xE0tiques dissenyat per practicar sumes, restes,
+    multiplicacions i divisions amb decimals"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1048,9 +1048,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Consta de 5 niveles en los que se realizan operaciones b\xE1sicas con
-    decimales. Al ir haciendo clic en los resultados correctos, los n\xFAmeros que
-    rodean la operaci\xF3n desaparecer\xE1n."
+  m_text: "Consta de 5 nivells en qu\xE8 es realitzen operacions b\xE0siques amb
+    decimals. Quan feu clic als resultats correctes, els n\xFAmeros que envolten
+    l'operaci\xF3 desapareixeran."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

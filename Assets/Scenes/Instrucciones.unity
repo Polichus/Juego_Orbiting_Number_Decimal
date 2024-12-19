@@ -514,19 +514,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1- Tenemos un men\xFA con 5 niveles, cada nivel es m\xE1s dif\xEDcil,
-    tienes que ir desde el nivel 1 al 5 no puedes ir al nivel 2 sin haber hecho el
-    nivel 1, y cuando acabes los niveles vas desbloqueando los siguientes niveles.\r\n\r\n2-
-    Vas resolviendo las operaciones matem\xE1ticas que te proponen, y seleccionar
-    el resultado correcto en los n\xFAmeros que orbitan alrededor de la operaci\xF3n
-    matem\xE1tica\r\n\r\n3- Cada acierto te va sumando puntos y se explotan las burbujas
-    con el resultado correcto.\r\n\r\n4- El tiempo va subiendo y cuando acabas la
-    partida habr\xE1 un ranking en el cual introduzcas tu nombre y te saldr\xE1n
-    los puntos y en qu\xE9 ranking est\xE1s.\r\n\r\n5- Tenemos 5 vidas y cada vez
-    que fallas te van quitando las vidas 1 a 1.\r\n\r\n6- Cada nivel tiene una pantalla
-    final donde te sale los puntos del nivel en el que est\xE1s y luego uno con la
-    acumulaci\xF3n de puntos totales de todos los niveles completados.\r\n\r\n7-
-    El juego finaliza cuando completas los 5 niveles. \r\n"
+  m_text: "1- Tenim un men\xFA amb 5 nivells, cada nivell \xE9s m\xE9s dif\xEDcil,
+    has d'anar des del nivell 1 al 5 no pots anar al nivell 2 sense haver fet el
+    nivell 1, i quan acabis els nivells vas desbloquejant els nivells seg\xFCents.\r\n\r\n2-
+    Vas resolent les operacions matem\xE0tiques que et proposen, i seleccionar el
+    resultat correcte als n\xFAmeros que orbiten al voltant de l'operaci\xF3 matem\xE0tica\r\n\r\n3-
+    Cada encert et va sumant punts i s'exploten les bombolles amb el resultat correcte.\r\n\r\n4-
+    El temps va pujant i quan acabes la partida hi haur\xE0 un r\xE0nquing on introdueixis
+    el teu nom i et sortiran els punts i en quin r\xE0nquing est\xE0s.\r\n\r\n5-
+    Tenim 5 vides i cada vegada que falles et van traient les vides 1 a 1.\r\n\r\n6-
+    Cada nivell t\xE9 una pantalla final on et surt els punts del nivell on ets i
+    despr\xE9s un amb l'acumulaci\xF3 de punts totals de tots els nivells completats.\r\n\r\n7-
+    El joc finalitza quan completes els 5 nivells."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -553,8 +552,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 39
+  m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -26,8 +26,18 @@ public class Niveles : MonoBehaviour
 
         }
 
-        // Start is called before the first frame update
-        void Start()
+    public void AnarEscenaNivel4()
+    {
+        SceneManager.LoadScene("Nivel4");
+
+    }
+    public void AnarEscenaNivel5()
+    {
+        SceneManager.LoadScene("Nivel5");
+
+    }
+    // Start is called before the first frame update
+    void Start()
         {
 
         }

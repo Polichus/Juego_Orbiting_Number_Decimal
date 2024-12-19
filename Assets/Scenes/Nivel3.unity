@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 6452310}
   - component: {fileID: 6452309}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasVidas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,6 +320,7 @@ GameObject:
   - component: {fileID: 379180810}
   - component: {fileID: 379180809}
   - component: {fileID: 379180811}
+  - component: {fileID: 379180812}
   m_Layer: 0
   m_Name: bola_dorada-removebg-preview
   m_TagString: Untagged
@@ -408,7 +409,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPuntos: {fileID: 1991967012}
+  listaNumeros: []
+  calculo: []
   canvasBolasGeneradas: {fileID: 1137389324}
+  numero1List: []
+  numero2List: []
+  currentResult: 0
+  textoVidas: {fileID: 2107450652}
+  textoOperacionNueva: {fileID: 1585357082}
+--- !u!114 &379180812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379180808}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311c52a80d88e75448e18126bfda0124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoVidas: {fileID: 2107450652}
+  listaNumeros: []
+  numero1List: []
+  numero2List: []
 --- !u!1 &424035301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,7 +1303,7 @@ GameObject:
   - component: {fileID: 1325227483}
   - component: {fileID: 1325227482}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TextoPuntos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1595,7 +1619,7 @@ GameObject:
   - component: {fileID: 1585357083}
   - component: {fileID: 1585357082}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TextoOperacion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1642,8 +1666,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7d163decb89833d4dae75738bf9e3784, type: 2}
+  m_sharedMaterial: {fileID: 7886055903138165822, guid: 7d163decb89833d4dae75738bf9e3784, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1667,8 +1691,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2652,7 +2676,7 @@ GameObject:
   - component: {fileID: 2107450653}
   - component: {fileID: 2107450652}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TextNumVides
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class Bola : MonoBehaviour
 {
-    private static HashSet<float> numerosGenerados = new HashSet<float>();
+    public static HashSet<float> numerosGenerados = new HashSet<float>();
     public Sprite[] spritesNumerosPossibles;
     private TextMeshProUGUI textoBola;
 
@@ -51,5 +51,6 @@ public class Bola : MonoBehaviour
         } while (numerosGenerados.Contains(numero));
         return numero;
     }
+
 
 }
